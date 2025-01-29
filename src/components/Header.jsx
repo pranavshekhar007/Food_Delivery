@@ -1,9 +1,13 @@
+import "./Header.css";
+
 function Header(){
     return(
-        <div className="flex  justify-between border-b-2 border-slate-200">
+        <div className="flex justify-around border-b-2 border-slate-200 bg-amber-50">
            <img src="https://png.pngtree.com/template/20191014/ourmid/pngtree-pin-food-delivery-map-location-delivery-logo-concept-image_318151.jpg" alt=""
            height="100px"
-           width="100px" />
+           width="100px" 
+           className=" rounded-full"
+           />
            <ul className="flex justify-center items-center gap-6">
             <li>Home</li>
             <li>Search</li>

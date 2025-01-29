@@ -2,17 +2,18 @@ import { useState } from 'react'
 import Body from './components/Body'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Welcome from './components/welcome'
+import Welcome from './components/Welcome'
+import CounterExample from './components/CounterExample'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Header />
-      <Welcome name="Pranav Shekhar"/>
+      {/* <Welcome name="Pranav Shekhar"/> */}
       <Body />
       <Footer />
+      {/* <CounterExample /> */}
     </>
   )
 }
