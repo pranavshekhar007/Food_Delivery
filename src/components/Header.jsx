@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header(){
@@ -9,11 +10,11 @@ function Header(){
            className=" rounded-full"
            />
            <ul className="flex justify-center items-center gap-6">
-            <li>Home</li>
-            <li>Search</li>
-            <li>Offers</li>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/search"> <li>Search</li></Link>
+            <Link><li>Offers</li></Link>
+            <Link to="/signIn"><li>SignIn</li></Link>
             <li>Help</li>
-            <li>SignIn</li>
             <li>Cart</li>
            </ul>
         </div>

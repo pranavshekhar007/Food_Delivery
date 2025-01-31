@@ -1,7 +1,7 @@
 function Footer(){
     return(
-        <div className="bg-amber-100 flex">
-        <img src="https://png.pngtree.com/template/20191014/ourmid/pngtree-pin-food-delivery-map-location-delivery-logo-concept-image_318151.jpg" alt=""
+        <div className="bg-slate-200 flex w-full p-5">
+            <img src="https://png.pngtree.com/template/20191014/ourmid/pngtree-pin-food-delivery-map-location-delivery-logo-concept-image_318151.jpg" alt=""
            height="100px"
            width="100px"
            className="ml-24 mx-8 rounded-full" />

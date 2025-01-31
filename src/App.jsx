@@ -1,20 +1,18 @@
 import { useState } from 'react'
-import Body from './components/Body'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Welcome from './components/Welcome'
-import CounterExample from './components/CounterExample'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Header />
-      {/* <Welcome name="Pranav Shekhar"/> */}
-      <Body />
+      <main className="flex-grow">
+        <Outlet />
+      </main>
       <Footer />
-      {/* <CounterExample /> */}
-    </>
+    </div>
   )
 }
 

@@ -1,13 +1,15 @@
 export const resturants = [
     {
+        id: 1,
         name: "Chinese work",
-        rating: "3.9",
-        deliveryTime: "30-35",
+        rating: "4.9",
+        deliveryTime: "30-45",
         cuisines: "Chinese, Asian, Tibetan",
         location: "VVip Style mall",
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fa4944f0cfdcbca2bec1f3ab8e3db3f7",
     },
     {
+        id: 2,
         name: "Pizza Hut",
         rating: "4.4",
         deliveryTime: "35-40",
@@ -16,6 +18,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/dc74a4b7-8d63-4eb7-91c9-048973c2cc99_1003414.jpg",
     },
     {
+        id: 3,
         name: "Champaran Handi",
         rating: "3.9",
         deliveryTime: "50-55",
@@ -24,6 +27,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xph0vf5pvbxjf8xchwjk",
     },
     {
+        id: 4,
         name: "Magic Momo",
         rating: "4.4",
         deliveryTime: "35-40",
@@ -32,6 +36,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/dh0qsuqritnmbncwrni3",
     },
     {
+        id: 5,
         name: "Chaska Cafe",
         rating: "3.8",
         deliveryTime: "50-55",
@@ -40,6 +45,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/uxgpy3bwmc5rsojmtw43",
     },
     {
+        id: 6,
         name: "Roof 5",
         rating: "4.4",
         deliveryTime: "35-40",
@@ -48,6 +54,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/glepanv4xjfnhsbieam1",
     },
     {
+        id : 7,
         name: "Om ki Bakery",
         rating: "3.9",
         deliveryTime: "50-55",
@@ -56,6 +63,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/tgh1teo4lkj5kuk7fkmo",
     },
     {
+        id: 8,
         name: "Famous dum biryani",
         rating: "4.4",
         deliveryTime: "35-40",
@@ -64,6 +72,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f594f4f63d3e00e93203f02d40e38d24",
     },
     {
+        id: 9,
         name: "Kathi Junction",
         rating: "3.9",
         deliveryTime: "50-55",
@@ -72,6 +81,7 @@ export const resturants = [
         imageUrl: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nigqvxgzvyxtfjuqasgg",
     },
     {
+        id: 10,
         name: "Bengla Punjab",
         rating: "4.4",
         deliveryTime: "35-40",
