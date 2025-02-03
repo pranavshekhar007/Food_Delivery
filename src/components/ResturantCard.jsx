@@ -1,5 +1,10 @@
+import userContext from "../utils/userContext";
+import { useContext } from "react";
+
 function ResturantCard(props){
     const {name, rating, deliveryTime, cuisines, location, imageUrl} = props.details;
+
+    const userDetails = useContext(userContext);
     return (
         <>
             <div className="m-8 hover:scale-95">
@@ -11,6 +16,7 @@ function ResturantCard(props){
                     <span> • {deliveryTime} min</span>
                     <p>{cuisines}</p>
                     <p className="">{location}</p>
+                    <p>{userDetails.loggedInUser}</p>
             </div>
         </>
     )

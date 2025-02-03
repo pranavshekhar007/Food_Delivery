@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 import usOnlineStatus from "../utils/useOnlineStatus";
+import userContext from "../utils/userContext";
+import { useContext } from "react";
 
 function Header(){
     const onlineStatus = usOnlineStatus();
+
+    const userInfo = useContext(userContext);
+    // userInfo.printName();
 
     return(
         <div className="flex justify-around border-b-2 border-slate-200 bg-amber-50">
@@ -13,6 +18,7 @@ function Header(){
            className=" rounded-full"
            />
            <ul className="flex justify-center items-center gap-6">
+            <li>{userInfo.loggedInUser}</li>
             <li>{onlineStatus ? "🟢" : "🔴"}</li>
             <Link to="/"><li>Home</li></Link>
             <Link to="/search"> <li>Search</li></Link>

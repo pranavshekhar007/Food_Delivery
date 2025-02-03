@@ -3,6 +3,8 @@ import { resturants } from "../utils/mockData";
 import { useEffect, useState } from "react";
 import "./Body.css";
 import { Link } from "react-router-dom";
+import userContext from "../utils/userContext";
+import { useContext } from "react";
 
 function Body(){
 
@@ -12,6 +14,8 @@ function Body(){
         ratings: false,
         fastDelivery: false,
     });
+
+    const userDetails = useContext(userContext);
 
     useEffect(() =>{
         setFilteredResturants(
@@ -41,6 +45,9 @@ function Body(){
     return(
         <div className="mx-auto w-5/6">
             <h1 className="font-bold p-6 text-2xl">Resturant with online food delivery</h1>
+
+            <input type="text" className="border m-5 border-blue-500" onChange={(e) => userDetails.setUserName(e.target.value)}/>
+
             <div className="flex">
                 <button className=" p-1.5 mx-5">Filter</button>
                 <button className=" p-1.5 mx-5 ">Sort By</button>

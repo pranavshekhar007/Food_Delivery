@@ -7,6 +7,8 @@ import SignIn from './components/SignIn.jsx'
 import ResturantDetails from './components/ResturantDetails.jsx'
 import Body from './components/Body.jsx'
 import Error from './components/Error.jsx'
+import Memo from './components/Memo.jsx'
+import Ref from './components/Ref.jsx'
 
 const appRoter = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const appRoter = createBrowserRouter([
       {
         path: "/resturant/:id",
         element: <ResturantDetails />
+      },
+      {
+        path: "/memo",
+        element: <Memo />
+      },
+      {
+        path: "/ref",
+        element : <Ref />
       }
     ]
   },
